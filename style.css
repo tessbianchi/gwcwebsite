@@ -1107,3 +1107,11 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 .mynothiddencontact{
   visibility: visible;
 }
+
+#myimage1{
+}
+
+#mydiv{
+  overflow: hidden;
+  height: 400px;
+}
