@@ -1115,3 +1115,8 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
   overflow: hidden;
   height: 400px;
 }
+
+.mylogo{
+  width:300px;
+  padding: 20px 0px 20px 50px;
+}
