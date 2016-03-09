@@ -1,5 +1,5 @@
 <html><head>
-<link rel="icon" href="img/flavi.ico">
+        <link rel="icon" href="img/flavi.ico">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -109,6 +109,46 @@
                     </button>
                     <a class="navbar-brand"><img height="64" alt="Brand" src="img/UF.png" img="" width="220"></a>
                 </div>
+                <div class="navbar navbar-default navbar-fixed-top nav">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html" contenteditable="true"><img height="64" alt="Brand" src="img/UF.png" img="" width="220"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="index.html">HOME</a>
+                                </li>
+                                <li class="navtext"></li>
+                                <li class="active dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT<br><i class="fa fa-caret-down"></i></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="mission.html">Mission</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="programs.html">Current Programs</a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="calender.html">CALENDAR</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -138,50 +178,23 @@
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                        <h1 class="text-center text-muted">- Mission -</h1>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                    <hr>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="text-primary"></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                            felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                            elementum semper nisi.&nbsp;Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-                            quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-                            massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate
-                            eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                            Vivamus elementum semper nisi.</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-primary"></h3>
+                    <img src="img/mission-banner.png" class="img-responsive">
+                    <hr>
+                    <p>Gainesville Women Coders is a student run organization at the University of Florida under UF WICSE with a mission to develop a strong community for young Gainesville women to learn and excel in Computer Science education. Our outreach programs include a Gainesville branch of Girls Who Code, as well as our very own created Gainesville Coding Club which will create coding clubs in numerous middle and high schools in the Gainesville area. Our mission is to create a close community in which young girls can learn how to code together in a fun and interactive environment in our best efforts to close the gender gap within the tech industry. Our wish is for this club to foster  lifelong connections in which girls can reach out and offer encouragement and friendship to fellow female coders.</p><hr>
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Bootstrap JS form CDN -->
         <link href="cal/fullcalendar.css" rel="stylesheet">
         <!-- SCRIPTS -->
@@ -189,15 +202,12 @@
         <script src="cal/lib/moment.min.js"></script>
         <script src="cal/fullcalendar.min.js" class="cssdesk" type="text/javascript"></script>
         <script src="cal/index.js"></script>
-        <!-- jQuery easing -->
         <footer class="section section-primary">
+            <div class="background-image"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <h1>Subscribe</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                            <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                            <br>Ut enim ad minim veniam, quis nostrud</p>
                         <form role="form">
                             <div class="form-group">
                                 <div class="input-group">
@@ -208,6 +218,8 @@
                                 </div>
                             </div>
                         </form>
+                         <p>Subscribe for monthly emails about the status of the club!</p>
+                        <div class="col-md-offset-3 col-md-6"></div>
                     </div>
                     <div class="col-sm-6">
                         <p class="text-info text-right">
@@ -224,15 +236,16 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 hidden-xs text-right">
-                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                                <!--<a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>-->
+                                <a href="https://www.facebook.com/ufgwc/"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                <a href="https://twitter.com/gvlwomencoders"><i class="fa fa-3x fa-fw hub text-inverse fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-    
+        <!-- jQuery easing -->
+
 
 </body></html>

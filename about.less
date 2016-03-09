@@ -270,7 +270,8 @@ monospace;
 //** Padding between columns. Gets divided in half for the left and right.
 @grid-gutter-width : 30px;
 // Navbar collapse
-//** Point at which the navbar becomes uncollapsed.
+//** Point at which the 
+becomes uncollapsed.
 @grid-float-breakpoint : @screen-sm-min;
 //** Point at which the navbar begins collapsing.
 @grid-float-breakpoint-max : (@grid-float-breakpoint - 1);
@@ -732,24 +733,51 @@ monospace;
 
 /* PINGENDO COMMENT DO NOT REMOVE */
 
-.node  {
-
-  border : solid lightgrey;
-
-  border-radius : 5px;
-
+.node {
+  border: solid lightgrey;
+  border-radius: 5px;
 }
 
-.nav  {
-
-  color : white;
-
-  background : #FFD900;
-
+.nav {
+  color: white;
+  background: #FFD900;
 }
 
-.navtext  {
+.navtext {
+  color: white;
+}
 
-  color : white;
+.table {
+  border: solid lightgrey;
+}
 
+.table-cell {
+  border: solid lightgrey;
+}
+
+.table-row {
+  border: none;
+}
+
+.right-align {}
+
+.table-title {
+  background: #BDBDBD;
+}
+
+.mission-pic {}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+  width: 100%;
+  height: 100%;
 }
