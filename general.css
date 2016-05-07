@@ -7781,6 +7781,13 @@ body {
 .fbblue:hover{
   color:#3b5998;
 }
+.Emp{
+
+}
+
+.Emp:hover{
+  style:bold;
+}
 
 .twitter{
   color:#fff;
@@ -7792,4 +7799,55 @@ body {
   color:white;
 }
 
+<style type="text/css">
+#preload_area
+{
+    background-image: url(img/tess.jpg);
+    background-image: url(img/tiff.jpg);
+    background-image: url(img/yanelis.jpg);
+    background-image: url(img/kim.jpg);
+    width: 0px;
+    height: 0px;
+    display: inline;
+}
+</style>
 
+.smaller{
+  size:25;
+}
+
+.input-button{
+
+    color: #5cb85c;
+  border-color: #5cb85c;
+  background-color: #a3d7a3;
+    height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 5px;
+}
+
+html,body
+{
+    width:320px
+    overflow-x:hidden;
+}
+
+.mc_embed_signup
+{
+  background:none; clear:left; font:14px Helvetica,Arial,sans-serif;
+   width:900px !important;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+blue {
+  color: #215CFF;
+}
+.bold{
+  font-weight: 900;
+}

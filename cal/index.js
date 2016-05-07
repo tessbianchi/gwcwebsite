@@ -152,29 +152,42 @@ $('#calendar').fullCalendar({
             textColor: 'white' // an option!
         },
         {
-            title: 'Gainesville Coding Club - PK Yonge',
+            title: 'GCC - PK Yonge',
             start: '2016-03-28',
             color: 'green',   // an option!
             textColor: 'white' // an option!
         },
         {
-            title: 'Gainesville Coding Club - PK Yonge',
+            title: 'GCC - PK Yonge',
             start: '2016-04-04',
             color: 'green',   // an option!
             textColor: 'white' // an option!
         },
         {
-            title: 'Gainesville Coding Club - PK Yonge',
+            title: 'GCC - PK Yonge',
             start: '2016-04-11',
             color: 'green',   // an option!
             textColor: 'white' // an option!
         },
         {
-            title: 'Gainesville Coding Club - PK Yonge',
+            title: 'GCC - PK Yonge',
             start: '2016-04-18',
             color: 'green',   // an option!
             textColor: 'white' // an option!
+        },
+        {
+            title: 'GCC - Instructor Info Session',
+            start: '2016-04-12',
+            color: 'green',   // an option!
+            textColor: 'white' // an option!
+        },
+        {
+            title: 'GCC - Instructor Applications Due',
+            start: '2016-04-15',
+            color: 'green',   // an option!
+            textColor: 'white' // an option!
         }
+        
 
 
     ],
