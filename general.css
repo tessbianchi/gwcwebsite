@@ -1,19 +1,6 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
 
 .slider-area {clear: both}
 .slider-area, .promo-area, .brands-area, .maincontent-area, .footer-top-area, .product-widget-area, .product-breadcroumb-area, .single-product-area {position: relative;overflow: hidden}
@@ -1516,7 +1503,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Lato;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1620,7 +1607,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lato";
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -6257,7 +6244,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Lato;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -6364,7 +6351,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Lato;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -7312,6 +7299,7 @@ html, body {
 blue {
   color: #215CFF;
 }
+
 .bold{
   font-weight: 900;
 }
